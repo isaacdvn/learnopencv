@@ -99,4 +99,7 @@ make -j$(sysctl -n hw.physicalcpu)
 make install
 
 cd $cwd
+workon OpenCV-master-py3
+import cv2
+cv2.__version__
 
